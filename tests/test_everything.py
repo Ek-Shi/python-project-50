@@ -23,5 +23,5 @@ def test_generate_diff(file1, file2, expected_file, formatter):
     expected_result = read_file(get_full_path(expected_file))
     result = generate_diff(file1_path, file2_path, formatter)
     assert result == expected_result, (
-        f"Wrong output with {file1} and {file2} expected {expected_result} got {result}" 
+        f"Wrong output with {file1_path} and {file2_path}\nexpected\n{expected_result}\ngot\n{result}" 
     )
