@@ -1,18 +1,19 @@
-def format_stylish(diff, level=1, spaces_count=4):
+def format_stylish(diff, level=0, spaces_count=4):
     
     lines = []
-    indent = ' ' * (spaces_count * level - 2)
+    indent = ' ' * (spaces_count * level)
+    shift = '  '
     
     for key, item in diff.items():
     
         if isinstance(item, dict):
             child_as_line = format_stylish(item['child'], level + 1, 
                 spaces_count)
-            lines.append(f'{indent}  {key}: {child_as_line}')
+            lines.append(f'{indent}{shift} {key}: {child_as_line}')
     
         elif isinstance(item, list):
             for data in item:
-                lines.append(f"{indent}{data['sign']} {key}: " + 
+                lines.append(f"{indent}{shift}{data['sign']} {key}: " + 
                     f"{to_str(data['value'])}")             
         else:
             raise ValueError(
