@@ -6,7 +6,9 @@ version = "0.1.0"
 description = "Second project hexlet school"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pytest>=8.3.5",
+]
 
 [build-system]
 requires = ["hatchling"]

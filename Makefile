@@ -14,11 +14,12 @@ install:
 	uv sync	
 	
 run-plain-json:
-	gendiff tests/fixtures/input/plain/json/file1.json tests/fixtures/input/plain/json/file2.json
+	gendiff tests/test_data/input/plain/json/file1.json tests/test_data/input/plain/json/file2.json
 	
 check: test lint
 
 test-coverage:
-	uv run pytest --cov=hexlet_python_package --cov-report xml
+	uv run pytest --cov=gendiff --cov-report xml
 
+.PHONY: test
 
