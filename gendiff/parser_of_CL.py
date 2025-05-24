@@ -1,7 +1,7 @@
 import argparse
 
 
-def CL_parse():
+def parse_CL():
     parser = argparse.ArgumentParser(
         description='Compares two configuration files and shows a difference.')
     parser.add_argument('first_file', type=str)

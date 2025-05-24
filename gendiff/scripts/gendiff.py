@@ -3,7 +3,7 @@ from gendiff.parser_of_CL import parse_CL
 
 
 def main():
-    params = CL_parse()
+    params = parse_CL()
     diff = generate_diff(params.first_file, params.second_file, params.format)
     print(diff)
 
