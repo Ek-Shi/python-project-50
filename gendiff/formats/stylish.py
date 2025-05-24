@@ -24,7 +24,7 @@ def format_stylish(diff, level=0, spaces_count=4):
     return f'{{\n{formatted_string}\n{indent}}}'
     
     
-def to_str(value, spaces_count=2):
+def to_str(value):
     if value is None:
         return 'null'
     elif isinstance(value, bool):
