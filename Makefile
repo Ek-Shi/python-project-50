@@ -15,7 +15,10 @@ install:
 	
 run-plain-json:
 	gendiff tests/test_data/input/plain/json/file1.json tests/test_data/input/plain/json/file2.json
-	
+
+run-plain-yaml:
+	gendiff tests/test_data/input/plain/yaml/file1.yaml tests/test_data/input/plain/yaml/file2.yaml
+
 check: test lint
 
 test-coverage:

@@ -16,6 +16,8 @@ def read_file(file_path):
 @pytest.mark.parametrize("file1, file2, expected_file, formatter", [
     ("input/plain/json/file1.json", "input/plain/json/file2.json", 
         "output/plain/stylish.txt", "stylish")
+    ("input/plain/yaml/file1.yaml", "input/plain/yaml/file2.yaml", 
+        "output/plain/stylish.txt", "stylish")
 ])
 def test_generate_diff(file1, file2, expected_file, formatter):
     file1_path = get_full_path(file1)
