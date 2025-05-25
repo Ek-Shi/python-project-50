@@ -25,9 +25,9 @@ def read_file(file_path):
     ("input/tree/json/file1.json", "input/tree/json/file2.json", 
         "output/tree/plain.txt", "plain"),
     ("input/tree/yaml/file1.yaml", "input/tree/yaml/file2.yaml", 
-        "output/tree/plain.txt", "plain"),     
+        "output/tree/plain.txt", "plain"),
     ("input/tree/json/file1.json", "input/tree/json/file2.json", 
-        "output/tree/json.txt", "json"),        
+        "output/tree/json.txt", "json"),
     ("input/tree/yaml/file1.yaml", "input/tree/yaml/file2.yaml", 
         "output/tree/json.txt", "json"), 
 ])
@@ -37,5 +37,6 @@ def test_generate_diff(file1, file2, expected_file, formatter):
     expected_result = read_file(get_full_path(expected_file))
     result = generate_diff(file1_path, file2_path, formatter)
     assert result == expected_result, (
-        f"Wrong output with {file1_path} and {file2_path}\nexpected\n{expected_result}\ngot\n{result}" 
+        f"Wrong output with {file1_path} and "
+        f"{file2_path}\nexpected\n{expected_result}\ngot\n{result}" 
     )
