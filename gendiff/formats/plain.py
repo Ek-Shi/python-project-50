@@ -49,6 +49,8 @@ def to_str(value):
         return 'null'
     elif isinstance(value, bool):
         return str(value).lower()
+    elif isinstance(value, (int, float)):
+        return str(value)      
     elif isinstance(value, dict):
         return "[complex value]"     
     else:
