@@ -8,6 +8,7 @@
 [Comparison of two plain YAML Files. Asciinema](https://asciinema.org/a/yqVqBymDGBc1WinVYZ6KFU84D)
 [Comparison of two tree  JSON Files. Asciinema](https://asciinema.org/a/SIpRCJrcpVXnKPAlHvKHKl1Qk)
 [Comparison of two tree  JSON Files. Plain format. Asciinema](https://asciinema.org/a/5qOLMuKP93YUk86jemtgS5V3m)
+[Comparison of two tree  JSON Files. JSON format. Asciinema](https://asciinema.org/a/wBVPlcaBqbxqrhcWswNbdPwUe)
 ### Setup
 
 ```bash
