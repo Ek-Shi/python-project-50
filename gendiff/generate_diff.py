@@ -22,12 +22,12 @@ def recurs_generate_diff(dict1, dict2):
             diff[key] = {
                 'child':  recurs_generate_diff(value1, value2)
             }
-        elif value1 is None:
+        elif key not in dict1:
             diff[key] = [{
                 'sign': '+',
                 'value': value2
             }]
-        elif value2 is None:
+        elif key not in dict2:
             diff[key] = [{
                 'sign': '-',
                 'value': value1

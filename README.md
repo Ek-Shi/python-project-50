@@ -6,6 +6,7 @@
 
 [Comparison of two plain JSON Files. Asciinema](https://asciinema.org/a/a3KoGLw5ajSJUzy4QYI7ryc8D)
 [Comparison of two plain YAML Files. Asciinema](https://asciinema.org/a/yqVqBymDGBc1WinVYZ6KFU84D)
+[Comparison of two tree  JSON Files. Asciinema](https://asciinema.org/a/SIpRCJrcpVXnKPAlHvKHKl1Qk)
 
 ### Setup
 

@@ -19,6 +19,9 @@ run-plain-json:
 run-plain-yaml:
 	gendiff tests/test_data/input/plain/yaml/file1.yaml tests/test_data/input/plain/yaml/file2.yaml
 
+run-tree-json:
+	gendiff tests/test_data/input/tree/json/file1.json tests/test_data/input/tree/json/file2.json
+
 check: test lint
 
 test-coverage:
