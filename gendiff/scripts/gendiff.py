@@ -1,4 +1,4 @@
-from gendiff.scripts.generate_diff import generate_diff
+from gendiff import generate_diff
 from gendiff.scripts.parser_of_cl import parse_cl
 
 
