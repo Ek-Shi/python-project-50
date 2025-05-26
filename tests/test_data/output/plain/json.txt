@@ -1,0 +1,37 @@
+{
+  "follow": [
+    {
+      "sign": "-",
+      "value": false
+    }
+  ],
+  "host": [
+    {
+      "sign": " ",
+      "value": "hexlet.io"
+    }
+  ],
+  "proxy": [
+    {
+      "sign": "-",
+      "value": "123.234.53.22"
+    }
+  ],
+  "timeout": [
+    {
+      "sign": "-",
+      "value": 50
+    },
+    {
+      "sign": "+",
+      "value": 20
+    }
+  ],
+  "verbose": [
+    {
+      "sign": "+",
+      "value": true
+    }
+  ]
+}
+

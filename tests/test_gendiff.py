@@ -31,9 +31,9 @@ def read_file(file_path):
     ("input/tree/yaml/file1.yaml", "input/tree/yaml/file2.yaml", 
         "output/tree/json.txt", "json"), 
     ("input/plain/json/file1.json", "input/plain/json/file2.json", 
-        "output/plain/stylish.txt", "plain"),
+        "output/plain/plain.txt", "plain"),
     ("input/plain/yaml/file1.yaml", "input/plain/yaml/file2.yaml", 
-        "output/plain/stylish.txt", "json"),
+        "output/plain/json.txt", "json"),
 ])
 def test_generate_diff(file1, file2, expected_file, formatter):
     file1_path = get_full_path(file1)
