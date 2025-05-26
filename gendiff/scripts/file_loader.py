@@ -1,6 +1,6 @@
 import os
 
-from gendiff.parser import parse
+from gendiff.formats.parser import parse
 
 
 def load(file):

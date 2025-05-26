@@ -1,6 +1,6 @@
 import pytest
 import os
-from gendiff import generate_diff
+from gendiff.scripts.generate_diff import generate_diff
 
 
 def get_full_path(file_name):

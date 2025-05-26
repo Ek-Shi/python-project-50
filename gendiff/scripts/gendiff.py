@@ -1,5 +1,6 @@
-from gendiff import generate_diff
-from gendiff.parser_of_CL import parse_cl
+from gendiff.scripts.parser_of_cl import parse_cl
+
+from gendiff.scripts.generate_diff import generate_diff
 
 
 def main():

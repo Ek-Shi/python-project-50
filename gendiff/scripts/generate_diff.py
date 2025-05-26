@@ -1,5 +1,5 @@
-from gendiff.file_loader import load
 from gendiff.formats.format import format
+from gendiff.scripts.file_loader import load
 
 
 def generate_diff(file_path1, file_path2, format_name='stylish'):
