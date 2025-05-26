@@ -33,5 +33,5 @@ jobs:
             -Dsonar.projectKey=Ek-Shi_python-project-50
             -Dsonar.organization=ek-shi
             -Dsonar.python.coverage.reportPaths=coverage.xml
-            -Dsonar.python.version 3.12
+            -Dsonar.python.version=3.12
             
