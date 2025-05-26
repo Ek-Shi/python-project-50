@@ -32,6 +32,7 @@ jobs:
           args: >
             -Dsonar.projectKey=Ek-Shi_python-project-50
             -Dsonar.organization=ek-shi
+            -Dsonar.coverage.exclusions=**/test_*.py,**/tests/**
             -Dsonar.python.coverage.reportPaths=coverage.xml
             -Dsonar.python.version=3.12
             
